@@ -1,0 +1,337 @@
+body{
+  margin: 0;
+  padding: 0
+}
+
+/*NAVIGATION BAR*/
+
+header{
+  background-color: #B2EA70;
+}
+
+.wrap{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.clearfix{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.main-header{
+  width: 100%;
+}
+
+.left{
+  float: left;
+  padding-top: 13px;
+  padding-bottom: 10px
+}
+
+.right{
+  float: right;
+}
+
+.right ul li{
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.right a{
+  text-decoration: none;
+  color: #000;
+}
+
+.right a:hover{
+  color: #ffffff;
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #FEF9EF;
+}
+
+/**BANNER PORTION**/
+.banner{
+  position: relative;
+}
+
+.banner img{
+  width: 100%;
+  height: 500px;
+}
+
+.banner-content{
+  position: absolute;
+  top: 43%;
+  left: 25%;
+  /** transform: translate(-50%, -50%);  YOU CAN EITHER USE "TOP" AND "LEFT" ATTRIBUTE OR TRANSFORM ATTRIBUTE - BOTH WORKS THE SAME **/
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  text-shadow: 0 0 0.8em #FF5151, 0 0 0.6em #FBFF00;
+}
+
+
+/**CARD SECTION**/
+
+.card-section{
+  margin: 30px 0;
+}
+
+h2{
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.row{
+  width: 100%;
+}
+
+.column{
+  width: 23%;
+  float: left;
+  text-align: center;
+  background-color: #B2EA70;
+  margin: 11px;
+}
+
+.column img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 50px;
+}
+
+.image-border{
+  border-top: 5px solid white;
+}
+
+.card-para{
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/**TRENDING PROJECTS**/
+
+.trending{
+  text-align: center;
+  margin: 50px auto 50px auto;
+}
+
+.trending p{
+  margin: 50px auto;
+  line-height: 1;
+}
+
+.image-border-trending{
+  border-top: 5px;
+}
+
+.trend-para{
+  font-family: 'Montserrat', sans-serif;
+  padding: 6px 10px 0 0;
+}
+
+.tp{
+  width: 72%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.trend{
+  width: 100%;
+}
+
+.column2{
+  width: 23%;
+  float: left;
+  text-align: left;
+  margin: 11px;
+
+}
+
+.column2 img{
+    width: 100%;
+    height: 175px;
+    border-radius: 5%;
+  }
+
+
+/**GREEN PORTION - RECENT PROPERTIES**/
+
+.recent-properties{
+  text-align: center;   /**FOR THE HEADDING RECENT PROPERTIES**/
+  background-color: #B2EA70;
+}
+
+.rp{
+  margin: 50px auto 50px auto;
+  width: 72%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.recent-columns{
+  width: 25%;
+  float: left;
+  text-align: left;
+  margin: 11px;
+  padding-right: 75px;
+}
+
+.recent-columns img{
+  height: 244px;
+  border-radius: 3%;
+}
+
+.image-border-recent{
+  border-top: 5px;
+}
+
+
+/**OUR COMPANY SECTION**/
+
+.our-company{
+  margin-bottom: 90px;
+}
+
+.company-description{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.company-description-para{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.our-company-row{
+  width: 100%;
+}
+
+.our-company-column{
+  width: 48%;
+  float: left;
+  margin: 0 8px;
+}
+
+.about-text{
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+}
+
+.list{
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+.list li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.arrow-point{
+  float: left;
+  height: 20px;
+}
+
+.about-text p{
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+.company-image{
+  height: 318px;
+  padding-left: 12px;
+}
+
+.points{
+  padding-left: 30px;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #396326;
+	background:linear-gradient(to bottom, #7fbd60 5%, #5a963c 100%);
+	background-color:#7fbd60;
+	border-radius:4px;
+	border:1px solid #4f912f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5a963c 5%, #7fbd60 100%);
+	background-color:#5a963c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/**FOOTER PART**/
+.footer-background{
+  background-color: #000000;
+  color: #FEFBF3;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-row{
+  width: 100%;
+}
+
+h4{
+  color: #49FF00;
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #FEF9EF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.column-link{
+  width: 23%;
+  float: left;
+  text-align: left;
+  margin: 11px;
+}
+
+.column-link li{
+  list-style: none;
+  padding-bottom: 11px;
+}
+
+a{
+  text-decoration: none;
+  color: #FEFBF3;
+}
+
+.column-link a:hover{
+  color: #FEFBF3;
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #FEF9EF;
+}
+
+
+.company-phone{
+  line-height: 2;
+}
+
+
+
+.maps{
+  width: 100%;
+}
